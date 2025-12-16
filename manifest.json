@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "SubSense",
+    "version": "1.0",
+    "description": "Hover over any word in YouTube subtitles to define it.",
+    "content_scripts": [
+        {
+            "matches": ["*://*.youtube.com/*"],
+            "js": ["content.js"]
+        }
+    ]
+}
